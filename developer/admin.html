@@ -6,10 +6,63 @@
     <meta charset="UTF-8" />
     <meta content="width=device-width, initial-scale=1" name="viewport" />
     <link href='//cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css' rel='stylesheet' type='text/css' />
-	<link href='//andaiminhgroup.github.io/css/admin/admin.css' rel='stylesheet' type='text/css' />
-	<script src='//andaiminhgroup.github.io/javascript/loadJS/loadJS.js' type='text/javascript'/>
+    <!-- CSS family -->
+    <script type='text/javascript'>
+        //<![CDATA[
+        //CSS Ready
+        function loadCSS(e, t, n) { "use strict"; var i = window.document.createElement("link"); var o = t || window.document.getElementsByTagName("script")[0]; i.rel = "stylesheet"; i.href = e; i.media = "only x"; o.parentNode.insertBefore(i, o); setTimeout(function () { i.media = n || "all" }) }
+        loadCSS("//fonts.googleapis.com/css?family=Roboto:100,100i,300,400,500,600,700,800i,900&subset=latin-ext,greek-ext,cyrillic-ext,greek,vietnamese,latin,cyrillic");
+        loadCSS("//fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&subset=latin-ext,greek-ext,cyrillic-ext,greek,vietnamese,latin,cyrillic");
+        loadCSS("//fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&subset=latin-ext,greek-ext,cyrillic-ext,greek,vietnamese,latin,cyrillic");
+        loadCSS("//fonts.googleapis.com/css?family=Playfair+Display:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&subset=latin-ext,greek-ext,cyrillic-ext,greek,vietnamese,latin,cyrillic");
+        loadCSS("//fonts.googleapis.com/css?family=Bitter:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&subset=latin-ext,greek-ext,cyrillic-ext,greek,vietnamese,latin,cyrillic");
+        loadCSS("//fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&subset=latin-ext,greek-ext,cyrillic-ext,greek,vietnamese,latin,cyrillic");
+        loadCSS("//fonts.googleapis.com/css?family=Old+Standard+TT:regular,italic,700&subset=latin,cyrillic-ext,cyrillic,latin-ext,vietnamese");
+        loadCSS("//fonts.googleapis.com/css?family=Lato:300,400,700");
+        loadCSS("//fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;1,400;1,500&display=swap");
+        loadCSS("//fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600&display=swap");
+        loadCSS("//fonts.googleapis.com/css?family=Crimson+Text:400,600,700,400italic");
+        loadCSS("//fonts.googleapis.com/css?family=Niconne");
+        loadCSS("//fonts.googleapis.com/css?family=Titillium+Web:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&subset=latin-ext,greek-ext,cyrillic-ext,greek,vietnamese,latin,cyrillic");
+        loadCSS("//cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css");
+        //]]>
+        </script>
 	<style>
-	html,body{font-family:var(--f-montserrat);} 
+        :root{
+        --primary-violet:#5B25F5;
+        --primary:#7b56ff;
+        --primary-light:#8abdff;
+        --primary-2:#6d5dfc;
+        --primary-dark:#5b0eeb;
+        --lg-primary-touch:linear-gradient(330deg, var(--primary-dark) 0%, var(--primary) 50%, var(--primary-light) 100%);
+        --f-old-standard:'Old Standard TT',sans-serif;
+        --f-roboto:'Roboto',sans-serif;
+        --f-poppins:'Poppins';
+        --f-dm-mono:'DM Mono';
+        --f-playfair:'Playfair Display';
+        --f-raleway:'Raleway';
+        --f-bitter:'Bitter';
+        --f-montserrat:'Montserrat';
+        --f-dancing:'Dancing Script';
+        --f-crimson:'Crimson Text';
+        --f-niconne:'Niconne';
+        --f-awesome:'Font Awesome 5 Pro';
+        }
+		html,body{font-family:var(--f-montserrat);} 
+        /* AN ĐẠI MINH - Font */
+        .f-bitter{font-family:var(--f-bitter)}
+        .f-roboto{font-family:var(--f-roboto)}
+        .f-dm-mono{font-family:var(--f-dm-mono)}
+        .f-raleway{font-family:var(--f-raleway)}
+        .f-old-standard{font-family:var(--f-old-standard)}
+        .f-poppins{font-family:var(--f-poppins)}
+        .f-playfair{font-family:var(--f-playfair)}
+        .f-montserrat{font-family:var(--f-montserrat)}
+        .f-dancing{font-family:var(--f-dancing)}
+        .f-crimson{font-family:var(--f-crimson)}
+        .f-niconne{font-family:var(--f-niconne)}
+        .f-mixture{font-family:"Lato", Helvetica, Arial, "ヒラギノ角ゴシック体 GB W6", Hiragino Sans GB W6, "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;}
+        .blg-primary-touch{background:var(--lg-primary-touch)} 
     </style>
 </head>
 <body>
